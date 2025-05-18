@@ -1,5 +1,5 @@
 import streamlit as st
-from patent citation import PdfReader
+from PyPDF2 import PdfReader
 from langchain.chains import ConversationalRetrievalChain
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
